@@ -1,37 +1,227 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="style10-1.css">
+	<title>任务十</title>
+	<link rel="stylesheet" href="task10.css">
+</head>
+ <body>
+    <div class="page-top">
+	    <div class="container">
+		    <div class="row">
+			    <div class="contact-us col-sm-8 hidden-xs">
+				客服热线：010-594-78634
+				</div>
+				<div class="log col-sm-4">
+				   <button class="log-in" value="登陆">登陆</button>
+				   <button class="register" value="注册">注册</button>
+				
+				</div>
+			</div>
+			
+		
+		</div>
+	</div>
+	<div class="clearfix">
+			    <div class="nav-lis">
+			        <div>
+					   
+					    <h3>首页</h3>
+				    </div>
+				    <div><h3>在线定制</h3></div>
+				    <div><h3>标准箱</h3></div>
+				    <div><h3>品质保障</h3></div>
+				</div>	
+			
+    </div>
+	<div class="task10-box">
+	    <div class="task10-step">
+		<div class="step1 step2-1">
+		    <div class="step-lin"></div>
+			    <span>1</span>
+				<p>1.定制纸箱</p>
+			
+			
+		</div><div class="step2 step2-2">
+		    <div class="step-lin2 step-lin2-1"></div>
+			    <span>2</span>
+				<p>2.选择数量</p>
 
-You can use the [editor on GitHub](https://github.com/2017zhang/task10/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+			
+			
+		</div><div class="step2 step2-3">
+		    <div class="step-lin2 step-lin2-2"></div>
+			    <span>3</span>
+				<p>3.上传附件</p>
+			
+			
+		</div><div class="step2 step2-4">
+		    <div class="step-lin2 step-lin2-3"></div>
+			    <span>4</span>
+				<p>4.确认下单</p>
+		</div>
+		</div>
+	</div>
+	<!--选择-->
+	<div class="clearfix-1">
+	<div class="con">
+	    <h3><span class="lin"></span>请按照以下步骤来定制</h3>
+		<div class="con-box1">
+		     <div class="lin-1">
+		    <span class="box1"><img src="images/01.jpg" alt=""></span>
+			<span class="select-box1">选择箱型</span>
+			</div>
+			<div class="select-box">
+			    <div class="select-left select-left-1">
+				    <label  class="label1">
+					    <input type="radio"  class="dianji" name="xiangxing"></input>
+					  
+						<span class="xuanze-con">对箱口</span>
+					</label>
+					<label for="dianji1" class="label1">
+					   <input type="radio" id="dianji1" class="dianji" name="xiangxing">
+					
+					   <span class="xuanze-con">飞机盒</span>
+					</label>
+					<label for="dianji2" class="label1">
+					   <input type="radio" id="dianji2" class="dianji" name="xiangxing">
+					
+					   <span class="xuanze-con">天地盖</span>
+					</label>
+				</div>
+				<div class="box-2 box-2-1">
+				    <select class="box-3 box-3-1">
+				        <option value="volvo" hidden>查看详情</option>
+					    <option value="volvo-1">飞机盖</option>
+				    	<option value="volvo-1">天地盖</option>
+				    	<option value="volvo-1">天地盖</option>
+			        </select>
+				</div>
+		     </div>
+		    <div class="lin-1 lin-1-2">
+		    <span class="box1"><img src="images/03.jpg" alt=""></span>
+			<span class="select-box1">确认尺寸</span>
+			</div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+			<div class="select-box-2 select-box-2-1">
+			    <div class="select-conter select-left select-left-2">
+				    <label  class="label1">
+					    <input type="radio" id="" class="dianji" name="xiangxing"></input>
+					  
+						<span class="xuanze-con">外径</span>
+					</label>
+					<div  class="xuanze-conter">
+					<label>
+				    	 <p>长&nbsp;<input type="text"  value="">mm</p>
+						 <p>长&nbsp;<input type="text"  value="">mm</p>
+						 <p>长&nbsp;<input type="text"  value="">mm</p>
+				    </label>
+					</div>	
+				</div>
+				 <div class="select-conter-1 ">
+				 <div class="select-conter select-left select-left-2">
+				    <label  class="label1">
+					    <input type="radio"  class="dianji" name="xiangxing"></input>
+					  
+						<span class="xuanze-con">内径</span>
+					</label>
+					<div  class="xuanze-conter">
+					<label>
+				    	 <p>长&nbsp;<input type="text"  value="">mm</p>
+						 <p>长&nbsp;<input type="text"  value="">mm</p>
+						 <p>长&nbsp;<input type="text"  value="">mm</p>
+				    </label>
+					</div>
+					
+					
+				</div>
+				</div>
+				<div class="box-2 box-2-2">
+				<select class="box-3 box-3-2">
+				    <option value="volvo" hidden>查看详情</option>
+					<option value="volvo-1">三层A瓦优质</option>
+					<option value="volvo-1">三层A瓦优质</option>
+					<option value="volvo-1">三层A瓦优质</option>
+				
+				</select>
+				</div>
+		  </div>
+				    
+				<div class="lin-1"> 
+		             <span class="box1"><img src="images/02.jpg" alt=""></span> 
+			         <span class="select-box1">选择材质</span> 
+			    </div> 
+				
+				<div class="select-box"> 
+			    <div class="select-left select-left-3"> 
+				
+				
+				    <label  class="label1"> 
+					     <input type="radio"  class="dianji" name="xiangxing"></input> 
+						 <span class="xuanze-con xuanze-con-1">三层b瓦优质</span> 
+					 </label> 
+					 <label  class="label1"> 
+					     <input type="radio"  class="dianji" name="xiangxing"></input> 
+						 <span class="xuanze-con xuanze-con-1">三层A瓦优质</span> 
+					 </label> 
+					 <label  class="label1"> 
+					     <input type="radio"  class="dianji" name="xiangxing"></input> 
+						 <span class="xuanze-con xuanze-con-1">三层A瓦优质</span> 
+					 </label> 
+					 <label  class="label1"> 
+					     <input type="radio"  class="dianji" name="xiangxing"></input> 
+						 <span class="xuanze-con xuanze-con-1">三层A瓦优质</span> 
+					 </label> 
+					 <label  class="label1"> 
+					     <input type="radio"  class="dianji" name="xiangxing"></input> 
+						 <span class="xuanze-con xuanze-con-1">三层A瓦优质</span> 
+					 </label> 
+				
+				</div>
 
-### Markdown
+                    <div class="box-2 box-2-3">
+				        <select class="box-3 box-3-3">
+                            <option value="volvo" hidden>查看详情</option>
+                            <option value="volvo-1">三层A瓦优质</option>
+                            <option value="volvo-1">三层A瓦优质</option>
+                            <option value="volvo-1">三层A瓦优质</option>
+		                </select>
+				    </div>
+			        <div class="buttom-1">
+			            <button class="button-2">下一步</button>
+			        </div>
+                </div>
+    </div>
+    </div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+    <footer>
+	<div class="foot-box">
+	    <div class="foot-left">
+		    <p>51包装网一纸箱包装首选服务平台</p>
+        </div>
+		<div class="foot-middle">
+		    <a href="#"><span class="foot-middle-1">关于我们</span></a>
+			<a href="#">配送流程</a>
+			<a href="#">联系我们</a>
+			<a href="#">下单指南</a>
+			<a href="#">媒体介绍</a>
+		</div>
+		<div class="foot-right">
+		   <p>TEL:400 0000 000</p>
+		   <p>企业QQ:12345567</p>
+		   <p>微信号：1234545</p>
+		   <img src="images/05.jpg">
+		
+		</div>
+	<div class="best-btm">
+	    <p>北京五一包装科技有限公司 Copyright ©2015  51baozhuang.com015 
+		All rights reserved. 京icp备11111111-2</p>
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/2017zhang/task10/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+     </footer>
+</div>
+</div>
+ </body>
+</html>
