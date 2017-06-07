@@ -1,0 +1,536 @@
+@charseet="utf-8";
+*{
+	margin:0;
+	padding:0;
+}
+html{
+	font-size:62.5%;
+}
+ .page-top{
+	 background:#1b7ad9;
+	 color:#fff;
+	 padding:1.5rem 10%;	 
+ }
+.contact-us{
+	 font-size:.14rem;
+	  display:inline;
+ }
+ .log{
+	 float:right;
+	 display:inline;
+	 font-weight:normal;
+	 height:60px;
+ }
+ .log-in{
+	 padding:0 1rem;
+     margin-top:-200px;
+	 height:52px;
+	 color:#fff;
+	 background-color:#1b7ad9;
+	 border:none;
+	 border-left:1px solid #fff;
+	 margin-right:-6px;	 
+ }
+ .register{
+	 padding:0 1rem;
+	 margin-top:-170px;
+	 height:52px;
+	 color:#fff;
+	 background-color:#1b7ad9;
+	 border:none;
+	 border-left:1px solid #fff;
+	 border-right:1px solid #fff;
+ }
+  .log-in:hover{
+	 color:#000;
+	 background-color:#fff;	 
+ }
+  .register:hover{
+     color:#000;
+	 background-color:#fff;
+ }
+ .clearfix{
+	 background:#f9f9f9;
+	 padding:2rem 0;	
+ }
+ .nav-lis{
+	  float:right;
+	 margin-right:-9.5rem;
+	 color:#000;
+	 margin-top:-14px;	 
+ }
+ .nav-lis>div{
+	 display:inline-block;
+	 border:1px solid none;
+	 padding:.5rem;
+	 background-color:#fff;
+	 border-radius:5px;
+	 margin:0 1rem;	 
+ }
+  .nav-lis>div:hover{
+	color:#fff;
+	 background-color:#1b7ad9;
+ }
+  .box{
+	 margin-right:10%;
+	 float:right; 
+ }
+ .task10-step{/*流程图*/ 
+	 display:inline-block;
+	 width:100%;
+	 margin-top:50px;
+	 padding-left:49%; 
+ }
+
+ .step1{ 
+	 display:inline-block;
+	 text-align: center;
+	 width:160px;
+	 height:110px;
+	 position:relative;
+ }
+ .step-lin{
+	 width:160px;
+	 height:8px;
+	 background:#ff7f02;
+	 border-radius:5px; 
+ }
+
+ /*选择圈*/
+ .step1>span{
+	 display:inline-block;
+	 width:25px;
+	 height:25px;
+	 background:#ff7f02;
+	 border-radius:50%;
+	 line-height:25px;
+	 margin-left:20px;
+	 color:#fff;
+	 text-align:center;
+	 display:block;
+	 margin-top:-15px;
+	 margin-left:65px;
+ }
+  .step2-2>span{
+	 display:inline-block;
+	 width:25px;
+	 height:25px;
+	 background:#ff7f02;
+	 border-radius:50%;
+	 line-height:25px;
+	 margin-left:20px;
+	 color:#fff;
+	 text-align:center;
+	 display:block;
+	 margin-top:-15px;
+	 margin-left:65px;
+ }
+.step1>p{
+	color:#ff7f02;
+	margin-top:30px;
+	margin-left:-17px;
+}
+.step2{
+	 display:inline-block;
+	 width:160px;
+	 height:110px;
+	 position:relative;
+ }
+ .step-lin2{
+	 width:160px;
+	 height:8px;
+	 background:#ccc;
+	 border-radius:5px;
+ }
+ .step2>span{	 
+	 display:inline-block;
+	 width:25px;
+	 height:25px;
+	 background:#ccc;
+	 border-radius:50%;
+	 line-height:25px;
+	 margin-left:20px;
+	 color:#fff;
+	 text-align:center;
+	 display:block;
+	 margin-top:-15px;
+	 margin-left:65px;
+ }
+.step2>p{
+	color:#ccc;
+	margin-top:30px;
+	margin-left:40px;
+}
+
+
+/*内容*/
+ .clearfix-1{
+	 margin-top:0px;
+
+ }
+
+ .con{
+	
+	 margin:0px 10%;
+	
+	
+ }
+ .lin{/*蓝色标志*/
+
+     display:inline-block;
+	 width:5px;
+	 height:14px;
+	 background:#1b7ad9;
+	 border-radius:5px;
+	 margin:0px 5px;
+	 
+ }
+ .con-box1{
+	 border:1px solid #e7e7e7;
+	 margin-top:10px;
+ }
+ .con>h3{/*蓝色标志*/
+	 font-size:15px;
+	 margin-bottom:10px;	 
+ }
+ .con-box1{/*标志*/
+	padding-top:-20px; 
+ }
+  .con-x3{
+	 clear:both; 
+ }
+ 
+ .lin-1 {
+	 
+	 position: relative;
+	 background-color:#f2f2f2;
+	 margin-top:0px;
+
+ }
+
+ .select-box1{/*确认尺寸*/
+	
+	 display: inline-block;
+	 margin:10px 40px;
+	 background:#f2f2f2;
+	 color:#1b7ad9;
+ }
+.box1{ /*图标*/
+	position: absolute;
+	left: 10px;
+	top: 25%;	
+ }
+ .select-left{
+	padding-top:20px;
+	padding-bottom:40px;
+ }
+ .label1{     
+	 display: inline-block;
+	 margin-right:5rem;
+	 padding-left:4rem;
+	 background:#fff;
+	 font-size:15px; 
+ }
+
+ .label1>input{	 
+	 -webkit-appearance: none;
+     appearance:none;
+	position:absolute;
+	 width:15px;
+	 height:15px;
+	 border:1px solid #ccc;
+	 border-radius:50%;  
+ }
+ .xuanze-con{/*选项介绍*/
+	 position:absolute;
+	 margin-top:-2px;
+	 margin-left:25px;	
+ }
+  .label1>input:checked{
+	 -webkit-appearance: none;
+     appearance: none;
+	 width:15px;
+	 height:15px;
+	 border:6px solid #1d7ad9;
+	 border-radius:50%; 
+	 outline:none;	 
+ }
+ .box-2{/*查看详情*/
+	 float:right;
+	 position:inline-block;
+	 margin-top:-20px; 
+	 font-size:15px;
+ }
+ .box-3{ /*查看详情*/ 
+
+	  float:right;
+	 appearance:none;
+	 -moz-appearance:none;
+	 -webkit-appearance:none;
+	width: 100px;
+	height:30px;
+	background: url(images/04.jpg) 5px center no-repeat;
+    padding-right: 30px;
+	padding-left:15px;
+    background-position:100%;
+	margin-top:-30px;	
+}
+.box-3-1{/*选择箱型详情*/	
+	 margin-top:-30px;	  
+ }
+  .box-3-2{/*确认尺寸详情*/	
+	 margin-top:-70px;	  
+ }
+
+.label-3>label{/*选项介绍*/	
+	width:30%;
+	border:1px solid #ccc;
+}
+.xuanze-con-1{/*选项介绍*/
+	margin-left:16px;
+}
+/*间文本框*/
+ .xuanze-conter{ 
+    position:absolute;
+	margin-left:120px;
+	margin-top:-5px;	
+} 
+.xuanze-conter>label>p{		
+	font-size:15px;
+	float:left;
+	padding-left:10px;	
+}
+ .xuanze-conter>label>p>input{	
+	width:50px;
+}
+/*按钮*/
+ .buttom-1{
+	 text-align: center;
+    border-top: .1rem solid #e7e7e7;
+    border-bottom: .1rem solid #e7e7e7;
+	padding-top:50px;
+	padding-bottom:50px;
+ }
+ .button-2{
+	 vertical-align:middle;
+	 background-color:red;
+	 border:none;
+	 color:#fff;
+	font-size:20px;
+	text-decoration:none;
+	padding:1rem 3rem;
+	border-radius:7px;
+ }
+/*尾部*/
+ .foot-box{
+
+	  display:block;
+	  padding:0 10%;
+	 width:100%;
+	 background-color:#f9f9f9;	
+ }
+ .foot-left{
+	  
+	 display:inline;
+	 float:left;
+	 width:30%;
+	 font-size:15px;
+	 padding:20px 0;
+	 line-height:30px;
+ }
+.foot-middle{
+	
+	display:inline;
+	width:20%;
+	float:left;
+	text-decoration:none;
+    font-size:15px;
+	padding:20px 0;
+	line-height:30px;	
+}
+ .foot-middle-1{
+	 color:#4e8fdd;
+ }
+.foot-middle>a{
+	color:#000;
+	text-decoration:none;
+}
+ .foot-right{
+	 display:inline;
+	 float:left;
+	width:30%;
+	font-size:15px;
+	padding:20px 0;
+	padding-left:10%;
+	 line-height:30px;
+ }
+ .foot-right>img{
+	 display:inline;
+	
+	 float:right;
+	 margin-top:-90px;
+	  margin-right:40%; 
+ }
+ .best-btm{
+
+	 float:left;
+	 width:100%;
+	 margin-left:-10%;
+	 background-color:#1d7ad9;
+	 text-align:center;
+
+ }
+/*媒体查询*/
+ @media screen and (max-width: 1440px){
+	  .task10-step{/*流程图*/
+	 padding-left:45%; 
+    }
+ }
+ @media screen and (max-width: 1024px){
+	  .task10-step{/*流程图*/
+	 padding-left:28%; 
+    }
+	.foot-right{
+		padding-left:8%;
+	}
+	.foot-right>img{
+		margin-right:82px;
+	}
+ } 
+  @media screen and (max-width:768px){
+	  .task10-step{/*流程图*/
+	 margin-left:-16%; 
+    }
+	
+	 .step-lin2-3{
+	 margin-left:0px;
+     }
+	 .foot-right{
+		padding-left:2%;
+		width:39%;
+	}
+	.box-2-3{
+		text-align:center;
+		
+	}
+	.select-left-1{
+		height:200px;
+	}
+	.box-3-2{
+		   margin-top:-30px;
+	   }
+		.select-left-3{
+	
+		  height:80px;
+	   }
+	   
+	   .box-3-3{
+		   margin-top:-30px;
+	   }
+ } 
+  @media screen and (max-width: 425px){
+	  .task10-step{/*流程图*/
+	 padding-left:30%; 
+    }
+	
+	 .select-left-1{
+		   height:60px;
+		   width:100px;
+	   }
+	   .box-3-1{
+		   margin-top:-30px;
+	   }
+	   .select-left-2{
+		  
+		   height:100px;
+		  
+	   }
+	   .xuanze-conter{
+		   width:150px;
+	   }
+
+	   .box-2-2{
+		margin-top:20px;
+		
+	}
+
+	.select-left-3{
+		  width:200px;
+		  height:115px;
+	   }
+	   
+	   .box-3-3{
+		   margin-top:-30px;
+	   }
+	.foot-left{
+		clear:both;
+		width:100%;
+		margin-left:50px;
+	}
+	.foot-middle{
+		clear:both;
+		width:80%;
+		text-align:center;
+	}
+	.foot-right{
+		clear:both;
+		width:100%;
+		
+		
+	}
+ } 
+   @media screen and (max-width: 375px){
+	  .task10-step{/*流程图*/
+	  margin-left:10%;
+	 
+    }
+	.step1{
+		display:block;
+	}
+	.step2{
+		display:block;
+	}
+ 
+	   .select-left-1{
+		   height:90px;
+	   }
+	   .box-3-1{
+		   margin-top:-30px;
+	   }
+	   .select-left-2{
+		   padding-bottom:50px;
+	   }
+	   .box-2-2{
+		margin-top:-20px;
+		
+	}
+
+	   .select-left-3{
+		   height:130px;
+	   }
+	   .box-3-3{
+		   margin-top:-30px;
+	   }
+	  .foot-left{
+		  margin-left:40px;
+	  }
+ } 
+@media screen and (max-width: 320px){
+	.nav-lis{
+		margin-right:-10.5rem;
+	}
+	.select-left-3{
+		  width:200px;
+		  height:115px;
+	   }
+	   .select-left-2{
+		   padding-bottom:50px;
+	   }
+	   
+	   .box-2-2{
+		margin-top:-20px;
+		
+	}
+	
+	
+}
