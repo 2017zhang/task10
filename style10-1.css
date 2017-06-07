@@ -408,8 +408,8 @@ html{
 	 margin-left:0px;
      }
 	 .foot-right{
-		padding-left:2%;
-		width:39%;
+		padding-left:0%;
+	
 	}
 	.box-2-3{
 		text-align:center;
@@ -429,6 +429,7 @@ html{
 	   .box-3-3{
 		   margin-top:-30px;
 	   }
+	
  } 
   @media screen and (max-width: 425px){
 	  .task10-step{/*流程图*/
@@ -480,6 +481,10 @@ html{
 		
 		
 	}
+	  .foot-right>img {
+	   padding-left: 184px;
+	}
+	  
  } 
    @media screen and (max-width: 375px){
 	  .task10-step{/*流程图*/
@@ -516,6 +521,9 @@ html{
 	  .foot-left{
 		  margin-left:12px;
 	  }
+	   .foot-right>img {
+	   padding-left: 162px;
+	}
  } 
 @media screen and (max-width: 320px){
 	.nav-lis{
@@ -532,6 +540,9 @@ html{
 	   .box-2-2{
 		margin-top:-20px;
 		
+	}
+	.foot-right>img {
+	   padding-left: 140px;
 	}
 	
 	
