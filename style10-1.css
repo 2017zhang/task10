@@ -1,10 +1,11 @@
-@charseet="utf-8";
+
 *{
 	margin:0;
 	padding:0;
 }
 html{
 	font-size:62.5%;
+	
 
 }
  .page-top{
@@ -13,7 +14,7 @@ html{
 	 padding:1.5rem 10%;	 
  }
 .contact-us{
-	 font-size:.14rem;
+	 font-size:10px;
 	  display:inline;
  }
  .log{
@@ -62,7 +63,7 @@ html{
  }
  .nav-lis>div{
 	 display:inline-block;
-	 border:1px solid none;
+	 /*border:1px solid red;*/
 	 padding:.5rem;
 	 background-color:#fff;
 	 border-radius:5px;
@@ -78,9 +79,9 @@ html{
  }
  .task10-step{/*流程图*/ 
 	 display:inline-block;
-	 width:100%;
+
 	 margin-top:50px;
-	 padding-left:49%; 
+	 padding-left:50%;
  }
 
  .step1{ 
