@@ -332,7 +332,9 @@ html{
 	 background-color:#f9f9f9;	
  }
  .foot-box-1{
-	 border:1px solid red;
+	 /*border: 1rem solid red;*/
+	 /*!*border-left: .1rem solid #e7e7e7;*!*/
+	 /*!*order-right: .1rem solid #e7e7e7;*!*/
  }
  .foot-left{
 
@@ -379,16 +381,17 @@ html{
  .best-btm{
 
 	 float:left;
-	 width:100%;
+
 	 margin-left:-10%;
 	 background-color:#1d7ad9;
 	 text-align:center;
 
  }
+
 /*媒体查询*/
 @media screen and (max-width:2560px){
 	.best-btm{
-		width:2560px;
+		width:1590px;
 		margin-left:-13%;
 	}
 }
@@ -405,15 +408,9 @@ html{
 	 }
  }
  @media screen and (max-width: 1024px){
-	  .task10-step{
-	        padding-left:28%; 
+	  .task10-step{/*流程图*/
+	 padding-left:28%; 
     }
-	 .conter>label>p>input {
-		 width: 49px;
-	 }
-	 conter>label>p>input {
-    width: 49px;
-	 }
 	 .select-left{
 		 padding-top:28px;
 	 }
