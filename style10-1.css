@@ -1,7 +1,7 @@
-
+@charset"utf-8";
 *{
 	margin:0;
-	padding:0;
+
 }
 html{
 	font-size:62.5%;
@@ -223,7 +223,7 @@ html{
 	top: 25%;	
  }
  .select-left{
-	padding-top:26px;
+	padding-top:32px;
 	padding-bottom:40px;
  }
  .label1{     
@@ -303,7 +303,8 @@ html{
 	padding-left:16px;	
 }
  .xuanze-conter>label>p>input{	
-	width:50px;
+	width:49px;
+	 margin-bottom:10px;
 }
 /*按钮*/
  .buttom-1{
@@ -331,11 +332,7 @@ html{
 
 	 background-color:#f9f9f9;	
  }
- .foot-box-1{
-	 /*border: 1rem solid red;*/
-	 /*!*border-left: .1rem solid #e7e7e7;*!*/
-	 /*!*order-right: .1rem solid #e7e7e7;*!*/
- }
+
  .foot-left{
 
 	 display:inline;
@@ -381,8 +378,7 @@ html{
  .best-btm{
 
 	 float:left;
-
-	 margin-left:-10%;
+     width:100%;
 	 background-color:#1d7ad9;
 	 text-align:center;
 
@@ -390,22 +386,19 @@ html{
 
 /*媒体查询*/
 @media screen and (max-width:2560px){
-	.best-btm{
-		width:1590px;
-		margin-left:-13%;
-	}
+
 }
  @media screen and (max-width: 1440px){
 	  .task10-step{/*流程图*/
-	 padding-left:45%; 
-    }
-	 foot-right>img{
-		 margin-right:-60px;
+	 padding-left:45%;
+	  }
+
+	 .foot-right>img{
+		 margin-right:40px;
 	 }
-	 .best-btm{
-		 width:1440px;
-		 margin-left:-143px;
-	 }
+
+
+
  }
  @media screen and (max-width: 1024px){
 	  .task10-step{/*流程图*/
@@ -414,17 +407,16 @@ html{
 	 .select-left{
 		 padding-top:28px;
 	 }
+	/*.select-left-1{*/
+		/*height:72px;*/
+	/*}*/
 	.foot-right{
-		padding-left:8%;
-	}
-	.foot-right>img{
-		margin-right:-30px;
-	}
-	.best-btm{
-		width:1024px;
-		margin-left:-102px;
-	}
- } 
+	 padding-left:8%;
+	 }
+	 .foot-right>img{
+	 margin-right:-30px;
+ }
+
   @media screen and (max-width:768px){
 	  .task10-step{/*流程图*/
 	 margin-left:-19%; 
@@ -437,13 +429,17 @@ html{
 		padding-left:2%;
 		width:39%;
 	}
+	 .foot-middle{
+	    padding-left:20px;
+	 }
+  }}
 	.box-2-3{
 		text-align:center;
 		
 	}
-	.select-left-1{
-		height:200px;
-	}
+	/*.select-left-1{*/
+		/*height:200px;*/
+	/*}*/
 	.box-3-2{
 		   margin-top:-30px;
 	   }
@@ -455,11 +451,11 @@ html{
 	   .box-3-3{
 		   margin-top:-30px;
 	   }
-	   .best-btm{
-		   width:768px;
-		   margin-left:-77px;
-	   }
- } 
+	 .foot-right>img {
+	 margin-right:0px;
+	 }
+
+
   @media screen and (max-width: 425px){
 	  .task10-step{/*流程图*/
 	 padding-left:30%; 
@@ -509,16 +505,13 @@ html{
 	.foot-right{
 		clear:both;
 		width:100%;
-		
-		
+
+
 	}
 	.foot-right>img{
 		margin-right:21px;
 	}
-	  .best-btm {
-		  width: 425px;
-		  margin-left: -43px;
-	  }
+
  } 
    @media screen and (max-width: 375px){
 	  .task10-step{/*流程图*/
@@ -579,15 +572,5 @@ html{
 	   .box-3-2{
 		   margin-top:-28px;
 	   }
-	.best-btm {
-		width: 320px;
-		margin-left: -32px;
-	}
-     .foot-left{
-		 width:200px;
-		 margin-left:13px;
-      }
-
-
 
 }
