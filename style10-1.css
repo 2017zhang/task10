@@ -305,6 +305,7 @@ html{
  .xuanze-conter>label>p>input{	
 	width:49px;
 	 margin-bottom:10px;
+	 outline-style: none;
 }
 /*按钮*/
  .buttom-1{
