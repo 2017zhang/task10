@@ -405,9 +405,12 @@ html{
 	 }
  }
  @media screen and (max-width: 1024px){
-	  .task10-step{/*流程图*/
-	 padding-left:28%; 
+	  .task10-step{
+	        padding-left:28%; 
     }
+	 .conter>label>p>input {
+		 width: 49px;
+	 }
 	 conter>label>p>input {
     width: 49px;
 	 }
