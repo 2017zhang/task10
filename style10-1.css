@@ -386,6 +386,12 @@ html{
 
  }
 /*媒体查询*/
+@media screen and (max-width:2560px){
+	.best-btm{
+		width:2560px;
+		margin-left:-13%;
+	}
+}
  @media screen and (max-width: 1440px){
 	  .task10-step{/*流程图*/
 	 padding-left:45%; 
