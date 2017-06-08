@@ -408,6 +408,9 @@ html{
 	  .task10-step{/*流程图*/
 	 padding-left:28%; 
     }
+	 .select-left{
+		 padding-top:28px;
+	 }
 	.foot-right{
 		padding-left:8%;
 	}
