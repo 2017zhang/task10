@@ -130,7 +130,7 @@ html{
 .step1>p{
 	color:#ff7f02;
 	margin-top:30px;
-	margin-left:-17px;
+	margin-left:-4px;
 }
 .step2{
 	 display:inline-block;
@@ -161,7 +161,7 @@ html{
 .step2>p{
 	color:#ccc;
 	margin-top:30px;
-	margin-left:40px;
+	margin-left:48px;
 }
 
 
@@ -232,6 +232,7 @@ html{
 	 padding-left:4rem;
 	 background:#fff;
 	 font-size:15px; 
+	 margin-top:20px;
  }
 
  .label1>input{	 
@@ -300,7 +301,8 @@ html{
 .xuanze-conter>label>p{		
 	font-size:15px;
 	float:left;
-	padding-left:16px;	
+	padding-left:16px;
+
 }
  .xuanze-conter>label>p>input{	
 	width:49px;
@@ -471,8 +473,11 @@ html{
 	   }
 	   .select-left-2{
 		  
-		   height:100px;
+		   height:115px;
 		  
+	   }
+	   	   .box-3-2{
+		   margin-top:-64px;
 	   }
 	   .xuanze-conter{
 		   width:150px;
@@ -487,16 +492,14 @@ html{
 		  width:200px;
 		  height:115px;
 	   }
-	   .box-3-2{
-		   margin-top:-66px;
-	   }
+
 	   .box-3-3{
 		   margin-top:-30px;
 	   }
 	.foot-left{
 		clear:both;
-
-		margin-left:50px;
+        width:100%;
+		margin-left:42px;
 	}
 	.foot-middle{
 		clear:both;
@@ -546,6 +549,9 @@ html{
 	   .box-3-3{
 		   margin-top:-30px;
 	   }
+	   .box3-2{
+		   margin-top:20px;
+	   }
 	  .foot-left{
 		  margin-left:12px;
 	  }
@@ -560,10 +566,13 @@ html{
 	}
 	.select-left-3{
 		  width:200px;
-		  height:115px;
+		  height:150px;
 	   }
 	   .select-left-2{
-		   padding-bottom:50px;
+		   padding-bottom:64px;
+	   }
+	   .select-left-1{
+		   height:102px;
 	   }
 	   
 	   .box-2-2{
@@ -572,6 +581,13 @@ html{
 	}
 	   .box-3-2{
 		   margin-top:-28px;
+	   }
+	   .box-3-3{
+		   margin-top:-24px;
+	   }
+	   .best-btm{
+		   width:100%;
+		   margin-left:0;
 	   }
 
 }
