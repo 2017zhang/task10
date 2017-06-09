@@ -224,7 +224,7 @@ html{
  }
  .select-left{
 	padding-top:32px;
-	padding-bottom:40px;
+	padding-bottom:50px;
  }
  .label1{     
 	 display: inline-block;
@@ -407,9 +407,9 @@ html{
 	  .task10-step{/*流程图*/
 	 padding-left:28%; 
     }
-	 .select-left{
-		 padding-top:28px;
-	 }
+	 /* .select-left{ */
+		 /* padding-buttom:50px; */
+	 /* } */
 	/*.select-left-1{*/
 		/*height:72px;*/
 	/*}*/
